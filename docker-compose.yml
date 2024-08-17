@@ -1,0 +1,12 @@
+version: '3'
+services:
+  csgo:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    environment:
+      - NAME=World
+    container_name: csgo_container
+    command: python
