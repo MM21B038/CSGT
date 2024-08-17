@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='CSGT',
-    version='1.0.0',
+    version='1.0.2',
     author='Manav Gupta',
     author_email='manav26102002@gmail.com',
     description='A deep learning library for Self-Organizing Maps (SOM) with clustering and gradient optimization.',
@@ -28,5 +28,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.10',
 )
