@@ -32,6 +32,7 @@ data = np.random.random((100, 3))
 
 # Initialize the CSGO model with a 10x10 grid and 3-dimensional input data
 model = CSGT(x=10, y=10, input_len=3)
+model.initialize_weight() #initializing random weight
 ```
 ### Training the Model
 ```bash
